@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gerold Busch</title>
+    <link>http://geroldbusch.de/</link>
+    <description>Recent content on Gerold Busch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Jul 2022 20:28:57 +0200</lastBuildDate><atom:link href="http://geroldbusch.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Defining Spark Schemas with Strings in DDL</title>
+      <link>http://geroldbusch.de/blog/spark-ddl-schema/</link>
+      <pubDate>Mon, 25 Jul 2022 20:28:57 +0200</pubDate>
+      
+      <guid>http://geroldbusch.de/blog/spark-ddl-schema/</guid>
+      <description>Defining a schema in Spark can sometimes be tedious and confusing. Also, there are some use cases (for example when writing tests, article TBD) where it is of advantage to define the schema in one string.
+Schema definitions as a string follow the idea of the Data Definition Language. DDL expressions are for example used to create tables in SQL databases:
+CREATE TABLE employees (id INTEGER not null, name VARCHAR(50) not null); Here the expression</description>
+    </item>
+    
+  </channel>
+</rss>
