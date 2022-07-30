@@ -1,0 +1,19 @@
+baseURL = 'http://geroldbusch.de/'
+languageCode = 'en-us'
+title = "Gerold Busch"
+theme = "ananke"
+
+SectionPagesMenu = "main"
+
+[params]
+  favicon = ""
+  site_logo = ""
+  description = "Data Scientist, astrophysicist, problem solver"
+  facebook = ""
+  twitter = ""
+  instagram = ""
+  youtube = ""
+  github = "https://github.com/gbusch"
+  gitlab = "https://gitlab.com/gbusch"
+  linkedin = "https://linkedin.com/in/geroldbusch"
+
