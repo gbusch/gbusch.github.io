@@ -2,6 +2,7 @@
 title: "Defining Spark Schemas with Strings in DDL"
 date: 2022-07-25T20:28:57+02:00
 draft: false
+tags: [Spark]
 ---
 
 Defining a schema in Spark can sometimes be tedious and confusing. Also, there are some use cases (for example when writing tests, article TBD) where it is of advantage to define the schema in one string.
