@@ -8,15 +8,15 @@ rtl = false
 title = "Gerold Busch"
 # logo = "img/logo.jpg"
 description = "My awesome website"
-copyright = "Copy, _right?_ :thinking_face:"
+copyright = "(c) Gerold Busch, 2022"
 
 dateFormat = "2 January 2006"
 
 [author]
   name = "Gerold Busch"
   #image = "img/author.jpg"
-  headline = "I'm only human"
-  bio = "A little bit about you"
+  headline = "Data Scientist, astrophysicist, problem solver"
+  bio = "Data Scientist, astrophysicist, problem solver"
   links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
@@ -38,7 +38,7 @@ dateFormat = "2 January 2006"
   #   { keybase = "https://keybase.io/username" },
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { lastfm = "https://lastfm.com/user/username" },
-  #   { linkedin = "https://linkedin.com/in/username" },
+    { linkedin = "https://linkedin.com/in/geroldbusch" },
   #   { mastodon = "https://mastodon.instance/@username" },
   #   { medium = "https://medium.com/username" },
   #   { microsoft = "https://www.microsoft.com/" },

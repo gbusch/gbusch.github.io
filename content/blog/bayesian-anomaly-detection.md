@@ -2,9 +2,9 @@
 title: "Bayesian Anomaly Detection"
 date: 2022-08-04T18:56:04+02:00
 draft: true
-math: true
 ---
----
+{{< katex >}}
+
 
 ## Bayes' theorem
 
