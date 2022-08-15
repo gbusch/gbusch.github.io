@@ -2,7 +2,7 @@
 title: "Gerold Busch"
 date: 2022-07-26T20:28:57+02:00
 draft: false
-description: "Data Scientist, Astrophysicist, Problem Solver"
+description: "Data Scientist"
 ---
 
 Welcome to my homepage. 

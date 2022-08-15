@@ -20,7 +20,7 @@ plt.ylabel("error rate")
 plt.plot(x, err_rate)
 for day in [54, 34, 11, 61]:
     plt.axvline(day, alpha=0.1)
-plt.savefig("static/blog/bayesian-anomaly-detection/error-rate-timeseries.png")
+plt.savefig("static/blog/bayesian-anomaly-detection/error-rate-timeseries.png", bbox_inches='tight')
 
 
 for day in [54, 34, 11, 61]:
@@ -44,7 +44,7 @@ for day in [54, 34, 11, 61]:
         )
     )
     plt.legend()
-    plt.savefig(f"static/blog/bayesian-anomaly-detection/distributions-day{day}.png")
+    plt.savefig(f"static/blog/bayesian-anomaly-detection/distributions-day{day}.png", bbox_inches='tight')
 
 
 # Beta distribution
@@ -52,7 +52,7 @@ xrange = np.arange(0, 1., 0.001)
 plt.figure()
 plt.title("Beta distribution")
 plt.plot(xrange, beta.pdf(xrange, 1, 1), label="Beta(1, 1)")
-plt.plot(xrange, beta.pdf(xrange, 10, 10), label="Beta(10, 10)")
-plt.plot(xrange, beta.pdf(xrange, 1000, 1000), label="Beta(1000, 1000)")
+plt.plot(xrange, beta.pdf(xrange, 3+1, 7+1), label="Beta(3+1, 7+1)")
+plt.plot(xrange, beta.pdf(xrange, 300+1, 700+1), label="Beta(300+1, 700+1)")
 plt.legend()
-plt.savefig("static/blog/bayesian-anomaly-detection/beta-distribution.png")
+plt.savefig("static/blog/bayesian-anomaly-detection/beta-distribution.png", bbox_inches='tight')

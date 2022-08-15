@@ -15,8 +15,8 @@ dateFormat = "2 January 2006"
 [author]
   name = "Gerold Busch"
   #image = "img/author.jpg"
-  headline = "Data Scientist, astrophysicist, problem solver"
-  bio = "Data Scientist, astrophysicist, problem solver"
+  headline = "Data Scientist"
+  bio = "Data Scientist"
   links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
