@@ -25,7 +25,7 @@ But how to do that when using the default Docker-image? Also: how can we easily 
     USER superset
     ENTRYPOINT [ "/start.sh" ]
     ```
-    This Dockerfile builds on top of the default Superset-image. Using the root-account, we install additional packages, here duckdb-engine because I want to connect to DuckDB (for other connections: https://superset.apache.org/docs/databases/installing-database-drivers).
+    This Dockerfile builds on top of the default Superset-image. Using the root-account, we install additional packages, here duckdb-engine because I want to connect to DuckDB ([see here for other connections](https://superset.apache.org/docs/databases/installing-database-drivers)).
 
     Then we copy the start-script (see 2.) and the superset-config (see 3.) Finally, we switch back to the non-root user, as is best practice, and set the start-script as entrypoint.
 
@@ -46,7 +46,7 @@ But how to do that when using the default Docker-image? Also: how can we easily 
 
     This script can also be used to create roles at start-up.
 
-3. Create a superset-config-file `superset_config.py`. Find here the original config-file from where you can get an idea of which configs can be set and modified.
+3. Create a superset-config-file `superset_config.py`. Find [here](https://github.com/apache/superset/blob/master/superset/config.py) the original config-file from where you can get an idea of which configs can be set and modified.
     ```
     FEATURE_FLAGS = {
         "ENABLE_TEMPLATE_PROCESSING": True,
