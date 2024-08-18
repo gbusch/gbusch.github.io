@@ -34,8 +34,8 @@ enableCodeCopy = true
   showAuthor = true
   showBreadcrumbs = true
   showDraftLabel = true
-  showEdit = false
-  # editURL = "https://github.com/gbusch/gbusch.github.io/content"
+  showEdit = true
+  editURL = "https://github.com/gbusch/gbusch.github.io/blob/master/content"
   editAppendPath = true
   showHeadingAnchors = true
   showPagination = true
@@ -51,7 +51,7 @@ enableCodeCopy = true
 [list]
   showBreadcrumbs = false
   showSummary = false
-  showTableOfContents = false
+  showTableOfContents = true
   groupByYear = true
 
 [sitemap]
