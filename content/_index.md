@@ -5,7 +5,7 @@ draft: false
 description: "Data Scientist"
 ---
 
-![Symbol](/blog/undraw_Predictive_analytics_re_wxt8.svg)
+![Symbol](/logo_home.svg)
 
 Welcome to my homepage. 
 
