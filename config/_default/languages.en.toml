@@ -1,3 +1,5 @@
+title = "Gerold Busch"
+
 [languages]
   [languages.en]
     languageCode = "en"
@@ -9,7 +11,7 @@
 
     title = "Gerold Busch"
     # logo = "img/logo.jpg"
-    description = "My awesome website"
+    description = "Gerold Busch's website"
     copyright = "(c) Gerold Busch, 2024"
 
     dateFormat = "2 January 2006"

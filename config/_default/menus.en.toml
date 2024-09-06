@@ -21,9 +21,14 @@
   weight = 20
 
 [[main]]
+  name = "Certifications"
+  pageRef = "certifications"
+  weight = 30
+
+[[main]]
   name = "Tags"
   pageRef = "tags"
-  weight = 30
+  weight = 40
 
 
 # -- Footer Menu --
