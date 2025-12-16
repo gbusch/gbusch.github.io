@@ -1,5 +1,5 @@
 ---
-title: "Databricks Academy Accreditation - Databricks Fundamentals"
+title: "Databricks Data Engineer Associate"
 date: 2025-11-20T12:00:00+02:00
 draft: false
 tags: [Certifications,Databricks]
