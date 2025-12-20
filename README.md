@@ -9,3 +9,5 @@ In case of problems it might help to clean up the space with: `hugo mod clean` a
 Upgrade hugo (Mac): `brew upgrade hugo`
 
 Upgrade theme: `hugo mod get -u`
+
+Add new content with: `hugo new content content/blog/topic-of-article/index.md`
